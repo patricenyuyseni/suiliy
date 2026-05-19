@@ -267,13 +267,24 @@ p {
     max-width: 500px;
 }
 
-/* FIXED RED WARNING STYLING */
+/* RED WARNING STYLING */
 .disclaimer {
     font-size: 1rem;
     font-weight: 700;
-    color: #ef4444 !important; /* Urgent Red Forced Primary */
+    color: #ef4444 !important;
     margin-top: 20px;
+    text-transform: uppercase;
     letter-spacing: 0.5px;
+}
+
+/* NEW 'IT'S NOT FREE' STYLING */
+.disclaimer-alert {
+    font-size: 1.3rem; /* Slightly larger for extra emphasis */
+    font-weight: 800;   /* Extra bold */
+    color: #ef4444 !important;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 footer {
