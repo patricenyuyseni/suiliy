@@ -1,4 +1,4 @@
-
+/* RESET & CORE STYLES */
 * {
     margin: 0;
     padding: 0;
@@ -76,7 +76,7 @@ p {
 
 .cta-button {
     display: inline-block;
-    background-color: #ea580c; /* High contrast primary color */
+    background-color: #ea580c;
     color: #ffffff;
     text-decoration: none;
     padding: 16px 32px;
@@ -267,10 +267,13 @@ p {
     max-width: 500px;
 }
 
+/* FIXED RED WARNING STYLING */
 .disclaimer {
-    font-size: 0.85rem;
-    color: #64748b;
-    margin-top: 12px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ef4444 !important; /* Urgent Red Forced Primary */
+    margin-top: 20px;
+    letter-spacing: 0.5px;
 }
 
 footer {
